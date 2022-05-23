@@ -11,6 +11,9 @@
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -45,9 +48,9 @@
               <nav class="site-navigation position-relative text-right" role="navigation">
   
                 <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                  <li><a href="about.html"><span class="nav-items">About</span></a></li>
-                  <li><a href="blog.html"><span class="nav-items">Work</span></a></li>
-                  <li><a href="contact.html"><span class="nav-items" id="nav-item">Contact</span></a></li>
+                  <li><a href="#about-section"><span class="nav-items">About</span></a></li>
+                  <li><a href="#work-section"><span class="nav-items">Work</span></a></li>
+                  <li><a href="#contact-section"><span class="nav-items" id="nav-item">Contact</span></a></li>
                 </ul>
               </nav>
             </div>
@@ -70,7 +73,7 @@
           </div>
         </div>
 
-      <div class="about-section">
+      <div class="about-section" id="about-section">
         <div class="container"  id="about-container">
           <div class="Aboutme">
             <h2 class="aboutme-heading">About Me</h2>
@@ -101,12 +104,13 @@
         </div>
       </div>
 
-      <div class="work-section">
+      <div class="work-section" id="work-section">
         <div class="work-heading-area">
           <h1 class="work-heading">My Recent Work</h1>
           <h4 class="work-heading-information">Here are a few of the projects i have worked on. Want to see more? <a href="https://github.com/GrantMAD" class="work-link">Click me.</a></h4>
         </div>
-        <div class="boxesContainer">
+        <hr class="work-section-hr">
+        <div class="boxesContainer" >
 
           <div class="cardBox">
             <div class="card">
@@ -114,9 +118,10 @@
                 <div class="align-center"><img src="/images/esportsArena.PNG"  class="work-image" alt=""></div>
               </div>
               <div class="back">
-                <h3>Back Side One</h3>
-                <p>Content in card one</p>
-                <a href="#">Button 1</a>
+                <h3 class="card-back-name">Esports Arena</h3>
+                <hr class="card-back-hr">
+                <p class="card-back-information">This is a project that a friend of mine and myself started building, we decided to build this specific type of site because we love esports and would love to get involved in the scene.</p>
+                <a href="#"><i class="fa fa-hand-pointer-o" id="card-icon" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -127,9 +132,10 @@
                 <div class="work-image-area"><img src="/images/esportsplatform.PNG" class="work-image" alt=""></div>
               </div>
               <div class="back">
-                <h3>Back Side Two</h3>
-                <p>Content in card two</p>
-                <a href="#">Button 2</a>
+                <h3 class="card-back-name">Esports Project</h3>
+                <hr class="card-back-hr">
+                <p class="card-back-information">This was another esports project i was working on to try sharpen my development skills. It was going to be a South Africa focused live esports hub, so people could go and check current and previous scores.</p>
+                <a href="#"><i class="fa fa-hand-pointer-o" id="card-icon" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -140,9 +146,10 @@
                 <div class="align-center"><img src="/images/esportsProject.PNG" class="work-image" alt=""></div>
               </div>
               <div class="back">
-                <h3>Back Side Three</h3>
-                <p>Content in card three</p>
-                <a href="#">Button 3</a>
+                <h3 class="card-back-name">Captain's Mode League</h3>
+                <hr class="card-back-hr">
+                <p class="card-back-information">This esports project is something I have built for someone that I do other work for, it is also a good project for me to practice and refine my skils.</p>
+                <a href="#"><i class="fa fa-hand-pointer-o" id="card-icon" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -153,9 +160,10 @@
                 <div class="align-center"><img src="/images/photographypic.PNG" class="work-image" alt=""></div>
               </div>
               <div class="back">
-                <h3>Back Side Four</h3>
-                <p>Content in card four</p>
-                <a href="#">Button 4</a>
+                <h3 class="card-back-name">Dads Photography</h3>
+                <hr class="card-back-hr">
+                <p class="card-back-information">I started to build this for my dad but he did not end up needing it. There are many things that need to be changed and updated as I never got to finish it.</p>
+                <a href="#"><i class="fa fa-hand-pointer-o" id="card-icon" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -165,117 +173,17 @@
                 <div class="align-center"><img src="/images/yelpcamppic.png" class="work-image" alt=""></div>
               </div>
               <div class="back">
-                <h3>Back Side Four</h3>
-                <p>Content in card four</p>
-                <a href="#">Button 4</a>
+                <h3 class="card-back-name">YelpCamp</h3>
+                <hr class="card-back-hr">
+                <p class="card-back-information">We had to build this in my online course. This definitely was once of the more complex things I have built because it involved building the backend side of things to.</p>
+                <a href="#"><i class="fa fa-hand-pointer-o" id="card-icon" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
         </div>
-        <!--<div class="centerflipcards">
-          <div class="row">
-            <div class="column">
-              <div class="square-flip">
-            <div class='square'>
-              <div class="square-container">
-                <div class="align-center"><img src="/images/esportsArena.PNG"  class="work-image" alt=""></div>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-            <div class='square2'>
-              <div class="square-container2">
-                <div class="align-center"></div>
-                <h1 class="project-heading">EsportsArena</h1>
-                <hr class="project-hr">
-                <h2 class="project-text">This is a project a friend and I worked on together.</h2>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="square-flip">
-            <div class='square'>
-              <div class="square-container">
-                <div class="work-image-area"><img src="/images/esportsplatform.PNG" class="work-image" alt=""></div>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-            <div class='square2'>
-              <div class="square-container2">
-                <div class="align-center"></div>
-                <h1 class="project-heading">EsportsPlatform</h1>
-                <hr class="project-hr">
-                <h2 class="project-text">This is a practice project of my own</h2>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="square-flip">
-            <div class='square'>
-              <div class="square-container">
-                <div class="align-center"><img src="/images/esportsProject.PNG" class="work-image" alt=""></div>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-            <div class='square2'>
-              <div class="square-container2">
-                <div class="align-center"></div>
-                <h1 class="project-heading">EsportsProject</h1>
-                <hr class="project-hr">
-                <h2 class="project-text">This is a project i built for a esports league in South Africa</h2>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="column">
-              <div class="square-flip">
-            <div class='square'>
-              <div class="square-container">
-                <div class="align-center"><img src="/images/photographypic.PNG" class="work-image" alt=""></div>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-            <div class='square2'>
-              <div class="square-container2">
-                <div class="align-center"></div>
-                <h1 class="project-heading">Photographic Site</h1>
-                <hr class="project-hr">
-                <h2 class="project-text">This is a project i was building for my father for him to display his photographs</h2>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="square-flip">
-            <div class='square'>
-              <div class="square-container">
-                <div class="align-center"><img src="/images/yelpcamppic.png" class="work-image" alt=""></div>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-            <div class='square2'>
-              <div class="square-container2">
-                <div class="align-center"></div>
-                <h1 class="project-heading">YelpCamp</h1>
-                <hr class="project-hr">
-                <h2 class="project-text">This was a project that i had to make during my online course</h2>
-              </div>
-              <div class="flip-overlay"></div>
-            </div>
-              </div>
-            </div>
-          </div>
-        </div>-->
       </div>
       <hr class="contact-hr">
-      <div  class="contact-section">
+      <div  class="contact-section" id="contact-section">
         <h1 class="contact-heading">Interested in collaborating?</h1>
         <h4 class="contact-text">I'm always open to discussing new opportunities.</h4>
         <a href="mailto:grant.davidson@webafrica.org.za"><button type="button" class="btn btn-outline-primary btn-lg" id="contact-button" >Start a conversation</button></a>
